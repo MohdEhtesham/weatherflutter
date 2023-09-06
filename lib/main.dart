@@ -1,29 +1,27 @@
-
 import 'package:flutter/material.dart';
-import 'package:testapp/weather/weatherapp.dart';
+import 'package:get/get.dart';
+import 'package:testapp/app/home/HomeView.dart';
+import 'package:testapp/getx/barcode.dart';
+import 'package:testapp/getx/bottomSheet.dart';
+import 'package:testapp/getx/controllerg.dart';
+import 'package:testapp/getx/imagepicker.dart';
+import 'package:testapp/getx/reactive.dart';
+import 'package:testapp/routes/routes.dart';
 
 
-
-void main(){
+void main() {
   runApp(MyApp());
-
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Weather App',
-      home:WeatherApp(),
-    
+    return MaterialApp(
+      title: 'Navigation with Get Package',
+      // initialRoute: AppRoutes.home,
+      // getPages: AppRoutes.routes,
+      home: BarcodeScannerDemo(),
     );
   }
 }
-
-
-
 

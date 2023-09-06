@@ -28,6 +28,17 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSFaceIDUsageDescription</key>
+<string>Your reason for using Face ID</string>
+<key>NSBiometricUsageDescription</key>
+<string>Your reason for using Touch ID</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+  <string>Upload images for screen background</string>
+ <key>NSCameraUsageDescription</key>
+    <string>Chatty requires access to the camera so you can take photos to show profile.</string>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Post videos to profile</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 <string>This app needs access to location when open.</string>
 <key>NSLocationAlwaysUsageDescription</key>
@@ -51,5 +62,6 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	
 </dict>
 </plist>
